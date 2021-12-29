@@ -1,3 +1,7 @@
+import docx
+from docx.shared import Pt
+from docx.enum.text import WD_ALIGN_PARAGRAPH
+
 def generate_tabs(num_tabs, font_type):
     doc = docx.Document()
     for i in range(0, num_tabs):
